@@ -1,0 +1,30 @@
+.user-profile{
+    width: 500px;
+    height: 100vh;
+    background-color: #F5F5F7;
+    position: fixed;
+    font-size: 18px;
+    right: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    padding: 20px 0;
+    &-description{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .image-wrapper{
+        width: 170px;
+        height: 170px;
+        border-radius: 50%;
+        background: #fff;
+
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
